@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* BLK Design System React - v1.2.1
+* BLK Sastec Diagnostic - v1.2.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/blk-design-system-react
@@ -16,17 +16,17 @@
 
 */
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // reactstrap components
 import {
-  Button,
+  // Button,
   NavItem,
   NavLink,
   Nav,
   Container,
   Row,
   Col,
-  UncontrolledTooltip
+  // UncontrolledTooltip
 } from "reactstrap";
 
 export default function Footer() {
@@ -35,10 +35,10 @@ export default function Footer() {
       <Container>
         <Row>
           <Col md="3">
-            <h1 className="title">BLK•</h1>
+            <h2 className="title" href="sastec-group.com">© 2022 • Sastec Diagnostic</h2>
           </Col>
           <Col md="3">
-            <Nav>
+            {/* <Nav>
               <NavItem>
                 <NavLink to="/" tag={Link}>
                   Home
@@ -59,33 +59,24 @@ export default function Footer() {
                   Profile
                 </NavLink>
               </NavItem>
-            </Nav>
+            </Nav> */}
           </Col>
           <Col md="3">
             <Nav>
               <NavItem>
-                <NavLink href="https://creative-tim.com/contact-us?ref=blkdsr-footer">
-                  Contact Us
+                <NavLink href="https://www.sastec-group.com/">
+                  Visitez notre site de Sastec
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://creative-tim.com/about-us?ref=blkdsr-footer">
-                  About Us
+                <NavLink href="https://creative-tim.com/about-us?ref=BLKdsr-footer">
+                  Découvrir notre solution Devfactory Studio
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="https://creative-tim.com/blog?ref=blkdsr-footer">
-                  Blog
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://opensource.org/licenses/MIT">
-                  License
-                </NavLink>
-              </NavItem>
+             
             </Nav>
           </Col>
-          <Col md="3">
+          {/* <Col md="3">
             <h3 className="title">Follow us:</h3>
             <div className="btn-wrapper profile">
               <Button
@@ -125,7 +116,7 @@ export default function Footer() {
                 Follow us
               </UncontrolledTooltip>
             </div>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </footer>

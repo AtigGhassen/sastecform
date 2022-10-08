@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* BLK Design System React - v1.2.1
+* BLK Sastec Diagnostic - v1.2.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/blk-design-system-react
@@ -70,11 +70,11 @@ export default function ExamplesNavbar() {
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" id="navbar-brand" tag={Link}>
-            <span>BLK• </span>
-            Design System React
+            <span>Sastec• </span>
+            Sastec Diagnostic
           </NavbarBrand>
           <UncontrolledTooltip placement="bottom" target="navbar-brand">
-            Designed and Coded by Creative Tim
+            Powered by Sastec
           </UncontrolledTooltip>
           <button
             aria-expanded={collapseOpen}
@@ -97,7 +97,7 @@ export default function ExamplesNavbar() {
             <Row>
               <Col className="collapse-brand" xs="6">
                 <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                  BLK•React
+                  Sastec•React
                 </a>
               </Col>
               <Col className="collapse-close text-right" xs="6">

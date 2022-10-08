@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* BLK Design System React - v1.2.1
+* BLK Sastec Diagnostic - v1.2.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/blk-design-system-react
@@ -16,9 +16,18 @@
 
 */
 import React from "react";
-
+import Iframe from 'react-iframe';
 // reactstrap components
-import { Container } from "reactstrap";
+import {
+  // Button,
+  Card,
+  // CardHeader,
+  CardBody,
+  // CardFooter,
+  // CardImg,
+  // CardTitle,
+  Container,
+} from "reactstrap";
 
 export default function PageHeader() {
   return (
@@ -31,12 +40,30 @@ export default function PageHeader() {
       <div className="squares square6" />
       <div className="squares square7" />
       <Container>
-        <div className="content-center brand">
-          <h1 className="h1-seo">BLK• React</h1>
-          <h3 className="d-none d-sm-block">
-            A beautiful Design System for Bootstrap 4 (reactstrap) and React.
-            It's Free and Open Source.
-          </h3>
+        <div className="content-center ">
+        <Card className="card-register" >
+              {/* <CardHeader>
+                <CardImg
+                  alt="..."
+                  src={require("assets/img/square-purple-1.png")}
+                />
+                <CardTitle tag="h4">Register</CardTitle>
+              </CardHeader> */}
+              <CardBody>
+              <Iframe url="https://docs.google.com/forms/d/e/1FAIpQLSdJDcBsutfZEFAzE_ZUDhanHistpOHkcaQpnw9j5pZ9wGfTQQ/formResponse"
+               width="1040px"
+               height="740px"
+               id=""
+               className=""
+               display="block"
+               position="relative"/>
+              </CardBody>
+              {/* <CardFooter>
+                <Button className="btn-round" color="primary" size="lg">
+                  Get Started
+                </Button>
+              </CardFooter> */}
+            </Card>
         </div>
       </Container>
     </div>

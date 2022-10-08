@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* BLK Design System React - v1.2.1
+* BLK Sastec Diagnostic - v1.2.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/blk-design-system-react
@@ -18460,7 +18460,7 @@ hr.line-deafult {
   color: #fff;
   padding: 0 15px;
   width: 100%;
-  max-width: 880px;
+  max-width: 2080px;
 }
 .page-header .content-center.brand {
   width: 47%;
@@ -22180,7 +22180,7 @@ td.rdtYear:hover {
   background: linear-gradient(0deg, #ba54f5 0%, #e14eca 100%);
 }
 .footer {
-  border-color: #8c3db9;
+  border-color: #2998D4;
 }
 .form-control:focus,
 .form-control:focus + .input-group-append .input-group-text,

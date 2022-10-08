@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* BLK Design System React - v1.2.1
+* BLK Sastec Diagnostic - v1.2.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/blk-design-system-react
@@ -22,11 +22,11 @@ import { Link } from "react-router-dom";
 import {
   Button,
   Card,
-  CardHeader,
+  // CardHeader,
   CardBody,
   CardFooter,
-  CardImg,
-  CardTitle,
+  // CardImg,
+  // CardTitle,
   Label,
   FormGroup,
   Form,
@@ -71,13 +71,6 @@ export default function Signup() {
           </Col>
           <Col className="mb-lg-auto" lg="6">
             <Card className="card-register">
-              <CardHeader>
-                <CardImg
-                  alt="..."
-                  src={require("assets/img/square-purple-1.png")}
-                />
-                <CardTitle tag="h4">Register</CardTitle>
-              </CardHeader>
               <CardBody>
                 <Form className="form">
                   <InputGroup

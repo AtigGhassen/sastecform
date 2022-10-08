@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* BLK Design System React - v1.2.1
+* BLK Sastec Diagnostic - v1.2.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/blk-design-system-react
@@ -44,7 +44,7 @@ export default function Download() {
             <Button
               className="btn-round"
               color="info"
-              href="https://www.creative-tim.com/product/blk-design-system-react?ref=blkdsr-index-page-download-section"
+              href="https://www.creative-tim.com/product/blk-design-system-react?ref=BLKdsr-index-page-download-section"
               role="button"
               size="lg"
             >

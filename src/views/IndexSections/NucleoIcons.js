@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* BLK Design System React - v1.2.1
+* BLK Sastec Diagnostic - v1.2.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/blk-design-system-react
@@ -28,9 +28,9 @@ export default function NucleoIcons() {
           <Col lg="8" md="12">
             <h2 className="title">Nucleo Icons</h2>
             <h4 className="description">
-              BLK• Design System PRO comes with 100 custom icons made by our
+              Sastec• Design System PRO comes with 100 custom icons made by our
               friends from NucleoApp. The official package contains over 2.100
-              thin icons which are looking great in combination with BLK• Design
+              thin icons which are looking great in combination with Sastec• Design
               System PRO Make sure you check all of them and use those that you
               like the most.
             </h4>
