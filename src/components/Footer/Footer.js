@@ -64,12 +64,12 @@ export default function Footer() {
           <Col md="3">
             <Nav>
               <NavItem>
-                <NavLink href="https://www.sastec-group.com/">
+                <NavLink href="https://www.sastec-group.com/" target="_blank">
                   Visitez notre site de Sastec
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://creative-tim.com/about-us?ref=BLKdsr-footer">
+                <NavLink href="https://creative-tim.com/about-us?ref=BLKdsr-footer" target="_blank">
                   Découvrir notre solution Devfactory Studio
                 </NavLink>
               </NavItem>
